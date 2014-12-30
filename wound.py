@@ -22,7 +22,7 @@ def wound():
 
 
 	if int(stren) in list1D and int(tough) in list1D:
-		print str(list2D[int(stren) - 1][int(tough) - 1]) + "+ to hit."
+		print str(list2D[int(stren) - 1][int(tough) - 1]) + "+ to wound."
 
 	else:
 		print "Invalid Data"
